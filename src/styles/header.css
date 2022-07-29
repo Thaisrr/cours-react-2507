@@ -1,0 +1,19 @@
+#header {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    background-color: var(--light);
+}
+
+#header img {
+    animation: spin infinite 8s linear;
+    height: 5em;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    } to {
+        transform: rotate(360deg);
+    }
+}

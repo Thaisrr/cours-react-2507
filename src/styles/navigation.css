@@ -1,0 +1,23 @@
+#Nav ul {
+    list-style: none;
+    padding-left: 0;
+    display: flex;
+    gap: 20px;
+    padding: 30px;
+}
+
+#Nav a:link, #Nav a:visited {
+    color: var(--dark);
+    font-size: 1.1em;
+    transition: .5s;
+    text-decoration: none;
+}
+
+#Nav a:hover {
+    text-decoration: underline;
+}
+
+#Nav a.active {
+    color: var(--secondary)
+}
+

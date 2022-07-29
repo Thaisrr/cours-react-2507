@@ -1,0 +1,32 @@
+/* Ici, le syle "structurel" et général */
+
+h1 {
+  color: var(--error);
+}
+
+h2 {
+  color: var(--secondary);
+}
+
+h3 {
+  color: var(--warning);
+}
+
+h1, h2, h3 {
+  font-family: var(--title-font);
+}
+
+main {
+  padding: 30px;
+}
+
+.App {
+  width: 85%;
+  margin: 100px auto;
+  background-color: var(--light);
+
+}
+
+.error {
+  color: var(--error);
+}
